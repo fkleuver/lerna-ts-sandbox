@@ -11,6 +11,12 @@
     "moduleResolution": "node",
     "pretty": true,
     "skipLibCheck": true,
-    "target": "es2015"
+    "target": "es2015",
+    "baseUrl": ".",
+    "paths": {
+      "pkg1": ["../pkg2/src/pkg1"],
+      "pkg2": ["./src/pkg2"],
+      "pkg3": ["../pkg2/src/pkg3"]
+    }
   }
 }
