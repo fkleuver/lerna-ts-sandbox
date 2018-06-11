@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "emmet.triggerExpansionOnTab": true,
+    "html.format.endWithNewline": true,
+    "prettier.printWidth": 260,
+    "prettier.singleQuote": true,
+    "tslint.exclude": [
+      "**/.vscode/**",
+      "**/dist/**",
+      "**/node_modules/**",
+      "**/scripts/**",
+      "**/test/**"
+    ],
+    "tslint.nodePath": "./node_modules/tslint/bin/tslint",
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "search.exclude": {
+      "**/.vscode": true,
+      "**/dist": true,
+      "**/node_modules": true
+    }
+}

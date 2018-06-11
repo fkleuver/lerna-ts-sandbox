@@ -1,0 +1,14 @@
+.DS_STORE
+.idea
+.nyc_output
+.rollupcache
+.rpt2_cache
+
+build/
+coverage/
+node_modules/
+
+package-lock.json
+yarn-error.log
+lerna-debug.log
+npm-debug.log
