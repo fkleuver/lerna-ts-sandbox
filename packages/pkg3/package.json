@@ -1,0 +1,21 @@
+{
+  "name": "pkg3",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "fkleuver",
+  "homepage": "https://github.com/fkleuver/lerna-ts-sandbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkleuver/lerna-ts-sandbox"
+  },
+  "bugs": {
+    "url": "https://github.com/fkleuver/lerna-ts-sandbox/issues"
+  },
+	"devDependencies": {
+		"lerna": "^2.11.0",
+		"tsconfig-paths": "^3.3.2",
+		"tslint": "^5.10.0",
+		"tslint-microsoft-contrib": "^5.0.3",
+		"typescript": "^2.9.1"
+	}
+}
