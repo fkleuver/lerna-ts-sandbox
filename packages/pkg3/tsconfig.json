@@ -4,7 +4,6 @@
     "allowSyntheticDefaultImports": true,
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
     "experimentalDecorators": true,
     "lib": ["es2017"],
     "module": "es2015",
@@ -12,11 +11,13 @@
     "pretty": true,
     "skipLibCheck": true,
     "target": "es2015",
+    "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
       "pkg1": ["../pkg1/src/pkg1"],
       "pkg2": ["../pkg2/src/pkg2"],
       "pkg3": ["./src/pkg3"]
     }
-  }
+  },
+  "include": ["./src"]
 }
